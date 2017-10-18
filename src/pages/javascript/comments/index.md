@@ -32,7 +32,14 @@ function hello() {
 }
 hello();
 ```
-
+You can also use comments to prevent lines of code from executing during testing. For example:
+```javascript
+function test() {
+  //console.log("Don't test me.");
+  console.log("Test me!");
+}
+test();
+```
 #### More Information:
 <a href='https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript' target='_blank' rel='nofollow'>How To Write Comments in JavaScript</a>
 
